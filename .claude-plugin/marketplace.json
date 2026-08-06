@@ -1,0 +1,15 @@
+{
+  "name": "gpo",
+  "owner": {
+    "name": "Good People Only",
+    "url": "https://goodpeopleonly.com"
+  },
+  "plugins": [
+    {
+      "name": "gpo-design-system",
+      "source": "./",
+      "description": "The Good People Only brand and style guide, A State of Play. Tokens, logos, rules and a starter page for any GPO design work.",
+      "version": "1.0.0"
+    }
+  ]
+}

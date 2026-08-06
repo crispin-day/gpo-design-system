@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- Good People Only: A State of Play. Minimal correct skeleton.
+     The ground, cursor, type voices, and the 2px structural rule are already right.
+     Build on top of this rather than starting from a blank page, because the
+     defaults you would otherwise inherit (white ground, hand cursor, rounded
+     cards) are all on the Never list. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Good People Only</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .page {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 var(--page-pad-x);
+  }
+
+  /* Structural break at the header bottom. The only heavy rule in the system. */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-5) 0;
+    border-bottom: 2px solid var(--ink);
+  }
+  header img { width: 44px; height: auto; display: block; }
+  nav { display: flex; gap: var(--space-5); }
+  nav a {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: var(--tr-widest);
+    color: var(--dim);
+  }
+
+  /* Frameless by default. Space and typography separate sections, not boxes. */
+  section { padding: clamp(48px, 7vw, 88px) 0; }
+
+  h1 { font-size: clamp(36px, 8vw, 96px); }
+
+  .lede {
+    max-width: var(--max-w-read);
+    margin-top: var(--space-5);
+    color: var(--dim);
+    font-size: var(--text-md);
+  }
+
+  /* Company voice: italic, with the one emphasized word upright and red. */
+  .quote {
+    font-weight: 600;
+    font-style: italic;
+    font-size: clamp(30px, 4vw, 56px);
+    letter-spacing: -0.015em;
+    line-height: var(--lh-snug);
+    max-width: 18ch;
+  }
+  .quote .mark { font-style: normal; }
+
+  footer { border-top: 2px solid var(--ink); padding: var(--space-7) 0; }
+  .meta { font-size: var(--text-sm); color: var(--dim); }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <img src="logos/logo-knockout.png" alt="Good People Only">
+      <nav>
+        <a href="#">Management</a>
+        <a href="#">Label</a>
+        <a href="#">Brands</a>
+        <a href="#">Affiliates</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section>
+      <!-- Setup and punchline: a quiet tracked-caps line hands off to the payoff. -->
+      <p class="label">Working in a State of Play</p>
+      <h1>Where brands meet culture<span class="wordmark-period">.</span></h1>
+      <p class="lede">
+        Short declaratives. Concrete nouns. The confidence of understatement.
+        The roster is small on purpose.
+      </p>
+    </section>
+
+    <section>
+      <p class="quote">
+        The most powerful marketing isn't advertising. It's <span class="mark">culture</span>.
+      </p>
+    </section>
+
+    <footer>
+      <p class="meta">Toronto · Los Angeles</p>
+      <p class="meta">contact@goodpeopleonly.com</p>
+    </footer>
+
+  </div>
+</body>
+</html>

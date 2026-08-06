@@ -1,0 +1,17 @@
+{
+  "name": "gpo-design-system",
+  "version": "1.0.0",
+  "description": "The Good People Only brand and style guide, A State of Play. Use for any GPO visual material: web pages, decks, one-sheets, social assets and email signatures.",
+  "author": {
+    "name": "Good People Only",
+    "url": "https://goodpeopleonly.com"
+  },
+  "repository": "https://github.com/crispin-day/gpo-design-system",
+  "keywords": [
+    "brand",
+    "design-system",
+    "style-guide",
+    "gpo",
+    "good-people-only"
+  ]
+}
