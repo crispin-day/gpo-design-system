@@ -158,7 +158,7 @@ The visitor's presence is the system's atom: a small red disc.
 
 ## 10. Voice & copy
 
-- Short declaratives. Concrete nouns. The confidence of understatement: "The roster is small on purpose."
+- Short declaratives. Concrete nouns. The confidence of understatement: "The roster is chosen, not collected."
 - The setup/punchline structure is the house rhythm: a quiet line that pays off in the name or the point.
 - Emphasis is one red word, chosen because it is the word that matters ("love", "culture"), not for decoration.
 - **No em dashes.** Ever. Use commas, colons, periods.

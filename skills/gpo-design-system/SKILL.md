@@ -202,8 +202,8 @@ materials.
 
 ## Voice and copy
 
-Short declaratives. Concrete nouns. The confidence of understatement: "The roster is
-small on purpose." Setup and punchline is the rhythm. Emphasis is one red word, chosen
+Short declaratives. Concrete nouns. The confidence of understatement: "The roster is chosen,
+not collected." Setup and punchline is the rhythm. Emphasis is one red word, chosen
 because it is the word that matters, not for decoration.
 
 **No em dashes or en dashes, ever.** Use commas, colons, or periods. This is absolute
